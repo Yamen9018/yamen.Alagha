@@ -1,0 +1,485 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Poppins:wght@300;400;500;600;700&family=Saira:ital,wght@1,700&family=Single+Day&family=Slabo+27px&display=swap');
+
+:root{
+
+    --primary-coler: #033b4a;
+    --secondary-color: #20c997;
+    --gray: #4a4a4d;
+    --bg-primary: #ecf0f3;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1 h2 {
+    font-family: 'Saira', sans-serif;
+}
+ul{
+    list-style: none; 
+
+}
+
+a{
+    text-decoration: none;
+}
+
+/* headerstart*/
+
+#home{
+    background-color: var(--bg-primary);
+    z-index: 999;
+
+}
+#home .navbar {
+    background-color:white;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    width: 100%;
+   
+
+
+}
+#home .navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px ;
+    margin: auto;
+    padding: 1.5rem 2rem;
+}
+
+
+
+ 
+#home .navbar nav ul {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+color: #20c997;
+padding: 1.5rem 2rem; 
+font-weight: 500;
+}
+
+    #home .navbar nav ul a {
+
+    margin: 0 15px;  
+    padding: 1.5rem 2rem; 
+    color: var(--bg-primary); 
+
+    } 
+
+    #home #logo{
+
+        color: var(--primary-coler);
+        text-transform: uppercase ;
+        font-size: 24px;
+        font-weight: 600;
+    }
+        #home .navbar nav ul :hover{
+            color: black;
+
+        }
+
+
+      #home .header-content{
+           display: grid;
+        grid-template-columns: 1.5fr 1fr;
+            max-width: 1100px;
+            margin: auto;
+            width:  100vh;
+            width: 100%;
+            align-items: center;
+           
+            padding: 2rem 5rem;
+        
+       }
+
+       img{
+        margin-top: 200px;
+        max-height: 450px;
+       }
+       .text-primary{
+        color: var(--secondary-color);
+       }
+       #home .header-content p span {
+        font-weight: 700;
+        font-size: 22px;
+       }
+
+
+       #home .header-content h1{
+        font-size: 60px;
+        color: var(--primary-coler);
+        text-shadow: 3px 3px 3px rgba(0, 0reen, 0, 2);
+margin-top: 10px;
+       }
+
+       #home .header-content .title{
+        font-size: var(--primary-coler);
+        margin: 10px 0;
+        font-weight: 500;
+       }
+
+
+       #home .header-content .social{
+        margin: 1rem 0 2rem;
+
+       }
+       #home .header-content .social a i{
+        font-size: 15px;
+        padding: 10px;
+        background-color: var(--gray);
+        color: white;
+        border-radius: 50%;
+transition: 0,5s;
+       }
+
+       #home .header-content .social a i:hover {
+transform: scale(0.85);
+       }
+
+       
+       .btn-primary{
+        background-color: var(--secondary-color);
+       border-radius: 10px;
+       padding: 8px 20px;
+       font-weight: 14px;
+       transition: all 0.3s;
+       cursor: pointer;
+       color: white;
+    }
+    .btn-primary:hover{
+        background-color: #15a076;
+color: rgb(161, 21, 21);
+transform: scale(0.9);
+    }
+
+    .header-content div  #about{
+        color: white;
+    }
+
+    header .header-content .text-content{
+        margin-bottom: 5rem;
+    }
+   
+/*hederend*/
+
+/*-- aboutme start*/
+
+.conteaner{
+    margin: auto;
+    padding: 0 2 rem;
+    max-width: 1100px;
+
+}
+
+#aboutme {
+    padding:  5rem 0;
+    margin-bottom: 30px;
+    
+
+}
+#aboutme h2
+
+{
+
+    text-align: center;
+    font-size: 38px;
+    color: var(--primary-coler);
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+}
+#aboutme hr{
+    width: 100px;
+    height: 3px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin: 5px auto 0;
+
+}
+#aboutme .about-content{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 3rem;
+
+}
+#aboutme .about-content .col-1 h3 {
+    font-size: 28px;
+    margin-bottom: 22px;
+    color: var(--primary-coler);
+
+}
+#aboutme .about-content .col-1 p {
+
+    color: var(--gray);
+    margin-bottom: 22px;
+    line-height: 1.8;
+
+}
+#aboutme .about-content .col-2 p {
+    color: var(--gray);
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd ;
+    padding: 6px;
+}
+
+
+
+/*-- aboutme end*/
+
+
+
+/*---skills-start*/
+
+#skills {
+    padding:  6rem 0;
+    margin-bottom: 30px;
+}
+
+
+#skills  h2 {
+    text-align: center;
+    font-size: 38px;
+    color: var(--primary-coler);
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#skills hr{
+    width: 100px;
+    height: 3px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin: 5px auto 0;
+
+}
+#skills{
+
+    background-color: var(--primary-coler);
+
+}
+#skills h2{
+    color:white;
+}
+
+
+#skills .skills-content .row p  {
+        font-size: 28px;
+        max-width: 30px;
+        color: white;
+
+} 
+#skills .skills-content{
+    margin-top: 3rem;
+    background:  #0f272d; ;
+    padding-left: 30px;
+}
+
+#skills .skills-content .row {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 90px;
+    text-align: center;
+}
+#skills .skills-content .row .items{
+    margin: 50px;
+    padding: 1rem ;
+    
+
+}
+
+
+
+/*---skills-eind*/
+/*-- contact-start*/
+#contact h2
+{
+
+    text-align: center;
+    font-size: 38px;
+    color: var(--primary-coler);
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+}
+
+#contact{
+    padding: 4rem ;
+    background-color: #00f4ab0c;
+
+
+}
+
+#contact .row{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns:repeat(2 , 1fr);
+    background:#fff ;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 2);
+    padding: 2rem 3rem;
+    border-radius: 10px;
+align-items: center;
+column-gap: 2rem ;
+
+}
+
+#contact .row input,
+#contact .row textarea
+
+{
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    outline: none;
+    background: #004fab0c ;
+    border: 1px solid #bbb;
+
+}
+
+#contact .row img{
+    margin: auto;
+}
+
+/*--  responsive*/
+  @media(max-width: 768px){
+
+    #home .navbar{
+        text-align: center;
+        width: 100%;
+    }
+  
+    #home .navbar nav{
+        display: block;
+       
+        
+    } 
+    #home .navbar nav ul{
+        margin-top:20px ;
+      text-align: center
+      ;
+    }
+    #home .navbar nav ul a{
+     margin: 0px;
+
+   
+    }
+    #home #logo{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    #home .header-content{
+       grid-template-columns: repeat(2,1fr); 
+       column-gap: 8rem;
+    }
+    #home .header-content p {
+        margin-top: 200px;
+        margin-bottom: 0px;
+    }
+    img{
+       
+        max-height: 250px;
+      
+       }
+       #aboutme .about-content{
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+        padding: 2rem 2rem;
+       }
+
+#contact .row{
+grid-template-columns:1fr;
+row-gap: 3rem;  
+}
+#contact .row img{
+    max-width: 300px;
+    margin: auto;
+}
+  }
+
+  @media(max-width: 529px){
+
+    #home .header-content h1{
+        font-size: 30px;
+    }
+
+    #home .header-content{
+        grid-template-columns: repeat(2,1fr); 
+    
+        column-gap: 3rem;
+        margin: auto;
+        padding: 10px;
+
+     }
+     img{
+     
+        max-width: 200px;
+     }
+     #home #logo{ 
+        font-size: 23px;
+
+
+  }
+  #home .navbar nav ul a{
+    margin: 0;
+    font-size: 11px;
+    padding: 10px 10px;
+   
+  }
+  #home .header-content h1{
+    font-size: 18px;
+  }
+  .btn-primary{
+    font-size:14px;
+    padding: 4px 10px;
+  }
+    
+  #home .header-content .social{
+    margin: 1rem 0 1rem;
+
+   }
+   #aboutme h2{
+    font-size: 30px;
+    margin: auto;
+   }
+   #aboutme .about-content .col-1 h3 {
+    font-size: 20px;
+   }
+   #skills  h2 {
+    font-size: 26px;
+margin: auto;
+   }
+   #skills .skills-content .row {
+
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    column-gap : 20px;
+    row-gap: 20px;
+ 
+  }
+  #contact h2
+{
+    font-size: 26px;
+   margin-bottom: 5px;
+}
+#contact .row{
+padding: 2rem 0,5rem;
+}
